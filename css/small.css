@@ -1,0 +1,103 @@
+@media (orientation: portrait) {
+
+  p {
+    font-size: 4vw;
+  }
+
+  .container { /*sets page margins */
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* header */
+
+  .myname {
+    font-size: 8vw;
+  }
+
+  .subtitle {
+    font-size: 6vw;
+  }
+
+  .logo {
+    width: 18%;
+    margin-top: 2vw;
+  }
+
+  .titles {
+    width: 82%;
+  }
+
+  /* featured work */
+
+  .featured-title {
+    font-size: 6vw;
+  }
+
+  .prj-name {
+    font-size: 5.5vw;
+  }
+
+  .prj {
+    width: 100%;
+  }
+
+  .grid-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+@media (orientation: landscape) {
+
+  p {
+    font-size: 2vw;
+  }
+
+  .container { /*sets page margins */
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* header */
+
+  .logo {
+    width: 10%;
+    margin-top: 1vw;
+  }
+
+  .titles {
+    width: 90%;
+  }
+
+  .subtitle {
+    font-size: 3vw;
+  }
+
+  .myname {
+    font-size: 5vw;
+  }
+
+  /* featured work */
+
+  .featured-title {
+    font-size: 3.4vw;
+  }
+
+  .prj {
+    width: 48.25%;
+  }
+
+  .prj-name {
+    font-size: 3.5vw;
+  }
+
+  .grid-margin {
+    margin-left: 3.5%;
+    margin-right: 0;
+  }
+
+}

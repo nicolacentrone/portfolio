@@ -1,0 +1,100 @@
+/* type selectors */
+
+h3 {
+  margin-bottom: 0;
+}
+
+hr {
+  border-top: 2.5px solid;
+  border-color: #7d97ad;
+}
+
+p {
+  font: normal normal 300 1vw/normal "Nunito", sans-serif;
+  color: #2d3c49;
+  margin-top: 0.3em;
+  text-align: center;
+}
+
+/* general classes */
+
+.page-frame {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container { /*sets page margins */
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.image { /* images auto-resize within the div*/
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.justify {
+  justify-content: center;
+}
+
+/* header */
+
+.logo {
+  width: 8%; /* change .titles width also. sum is 100 */
+  height: 8%; /* change .titles width also. sum is 100 */
+  margin-top: 0.8vw;
+  margin-bottom: auto;
+}
+
+.titles {
+  width: 92%; /* change .logo width and height also. sum is 100 */
+  text-align: right;
+  font-size: 15px;
+}
+
+.myname {
+  font: normal normal 300 3.3vw/normal "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: #2d3c49;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font: normal normal lighter 2vw/normal "Lobster", sans-serif;
+  color: #2d3c49;
+  margin-top: 0.3em;
+}
+
+/* featured work */
+
+.prj {
+  width: 31%; /* change .grid-margin margins also.*/
+}             /* (width x 3) + margin-left + margin-right = 100 */
+
+.grid-margin {
+  margin-left: 3.5%; /* change .prj width also*/
+  margin-right: 3.5%;
+}
+
+.prj-name {
+    font: normal normal normal 2.5vw/normal "Nunito", sans-serif;
+    color: #2d3c49;
+    text-align: center;
+    margin-top: 0.3em;
+}
+
+.featured-title {
+  font: normal normal 400 2.5vw/normal "Quicksand", sans-serif;
+  color: #7d97ad;
+  margin-bottom: 0;
+  margin-top: 0;
+}
