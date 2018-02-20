@@ -1,13 +1,12 @@
-Nicola Centrone
-Date: 28/12/17
-
 # Portfolio
+
+## Description
 This is my portfolio on Github. It's constantly updated with new features as soon as I learn new skills.
 
 
 ## License
 MIT License
-Copyright (c) [2017] [Nicola Centrone]
+Copyright (c) [2018] [Nicola Centrone]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
